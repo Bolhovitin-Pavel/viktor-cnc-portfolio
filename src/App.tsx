@@ -1,5 +1,7 @@
-import {Text} from 'react-native';
+import LandingScreen from './screens/LandingScreen';
 
-const App = () => <Text>Hellow from React Native</Text>;
+const App = () => {
+  return <LandingScreen />;
+};
 
 export default App;
