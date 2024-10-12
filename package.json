@@ -2,6 +2,9 @@
   "name": "viktor-cnc-portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.18.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +15,8 @@
   "dependencies": {
     "next": "14.2.15",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-native-web": "^0.19.12"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -22,6 +26,7 @@
     "eslint-config-next": "14.2.15",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^2.8.8",
+    "react-native": "^0.75.4",
     "typescript": "^5"
   }
 }
