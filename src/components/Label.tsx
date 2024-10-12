@@ -1,4 +1,4 @@
-import typography, {TypographyVariant} from '@/utils/typography/Typography';
+import typography, {TypographyVariant} from '@/utils/typography/typography';
 import {Text, TextProps} from 'react-native';
 
 type Props = Pick<TextProps, 'children'> & {
