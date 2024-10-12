@@ -1,7 +1,7 @@
 module.exports = {
   presets: ['next/babel'],
   plugins: [
-    // babel-plugin-react-native-web setup:
+    // Setup babel-plugin-react-native-web:
     ['react-native-web', {commonjs: true}],
   ],
 };
